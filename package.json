@@ -5,7 +5,10 @@
   "main": "index.js",
   "scripts": {
     "t1" : "node exercise01.js",
-    "t2" : "node exercise02.js"
+    "t2" : "node exercise02.js",
+    "for" : "node factorial-for.js",
+    "while" : "node factorial-while.js",
+    "break" : "node factorial-break.js"
   },
   "repository": {
     "type": "git",
