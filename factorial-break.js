@@ -13,7 +13,7 @@ return `El factorial de ${i} es: ${acumulador}`;
 }
 calculandoFactorialDe(10)
 
-//.....................APLICANDO SOLO BREAK..............................
+//.....................APLICANDO SOLO BREAK.............................
 
 let numero =10
 let i = 1
