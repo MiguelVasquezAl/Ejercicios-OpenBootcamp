@@ -11,7 +11,7 @@ function calculandoFactorialDe(n) {
 }
 calculandoFactorialDe(10)
 
-//.....................APLICANDO SOLO WHILE.............................
+//.....................APLICANDO SOLO WHILE..............................
 
 let numero = 10
 let acumulador = 1

@@ -9,7 +9,7 @@ while (true) {
     i++
     if(i === n+1)break
 }
-return `El factorial de ${i} es: ${acumulador}`;
+return `El factorial de ${n} es: ${acumulador}`;
 }
 calculandoFactorialDe(10)
 
@@ -23,5 +23,5 @@ while (true) {
     i++
     if(i === numero+1)break
 }
-console.log(`El factorial de ${i} es: ${acumulador}`);
+console.log(`El factorial de ${numero} es: ${acumulador}`);
 console.log(acumulador);
