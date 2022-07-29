@@ -2,25 +2,26 @@
 //..............APLICADO BREAK EN UNA FUNCION....................
 
 function calculandoFactorialDe(n) {
-let numero = 1
+let i = 1
 let acumulador = 1
 while (true) {
-    acumulador = acumulador*numero
-    numero++
-    if(numero === n)break
+    acumulador = acumulador*i
+    i++
+    if(i === n+1)break
 }
-return `El factorial de ${numero} es: ${acumulador}`;
+return `El factorial de ${i} es: ${acumulador}`;
 }
 calculandoFactorialDe(10)
 
 //.....................APLICANDO SOLO BREAK..............................
 
-let numero = 1
+let numero =10
+let i = 1
 let acumulador = 1
 while (true) {
-    acumulador = acumulador*numero
-    numero++
-    if(numero === 10)break
+    acumulador = acumulador*i
+    i++
+    if(i === numero+1)break
 }
-console.log(`El factorial de ${numero} es: ${acumulador}`);
+console.log(`El factorial de ${i} es: ${acumulador}`);
 console.log(acumulador);
