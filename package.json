@@ -8,7 +8,8 @@
     "t2" : "node exercise02.js",
     "for" : "node factorial-for.js",
     "while" : "node factorial-while.js",
-    "break" : "node factorial-break.js"
+    "break" : "node factorial-break.js",
+    "t4" : "node exercise04.js"
   },
   "repository": {
     "type": "git",
