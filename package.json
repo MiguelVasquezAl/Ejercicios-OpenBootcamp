@@ -13,7 +13,8 @@
     "t5" : "node exercise05.js",
     "t6" : "node exercise06.js",
     "t7.1" : "node exercise07.1conjuntos.js",
-    "t7.2" : "node exercise07.2objetos.js"
+    "t7.2" : "node exercise07.2objetos.js",
+    "t7.3" : "node exercise07.3fechas.js"
   },
   "repository": {
     "type": "git",
