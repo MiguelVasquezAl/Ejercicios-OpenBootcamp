@@ -11,7 +11,8 @@
     "break" : "node factorial-break.js",
     "t4" : "node exercise04.js",
     "t5" : "node exercise05.js",
-    "t6" : "node exercise06.js"
+    "t6" : "node exercise06.js",
+    "t7" : "node exercise07.1conjuntos.js"
   },
   "repository": {
     "type": "git",
