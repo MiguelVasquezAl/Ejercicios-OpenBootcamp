@@ -6,12 +6,17 @@ console.log(n());
 
 
 //Una función asíncrona que utilice un setTimeout y pase por consola un "Hola soy una promesa" 5 segundos después de haberse ejecutado
-const mipromesa = new Promise((resolve, reject)=>{
-    setTimeout(()=>{
-        resolve("Hola soy una promesa"),5000
-    })
-})
-mipromesa
+
+// const mipromesa = new Promise((resolve, reject)=>{
+//     setTimeout(()=>{
+//         resolve("Hola soy una promesa"),5000
+//     })
+// })
+// mipromesa
+
+async function promesa(){
+    return setTimeout(()=>console.log("Hola soy una promesa"),5000)
+}
 
 // Una función generadora de índices pares automáticos
 function* pares() {
