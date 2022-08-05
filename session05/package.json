@@ -1,0 +1,20 @@
+{
+  "name": "ejercicios-openbootcamp",
+  "version": "1.0.0",
+  "description": "Hola, este es mi ejercicio 05 con Node en el mejor Bootcamp de programación del mundo",
+  "main": "index.js",
+  "scripts": {
+    "t5": "node exercise05.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MiguelVasquezAl/Ejercicios-OpenBootcamp.git"
+  },
+  "author": "Miguel Vasquez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MiguelVasquezAl/Ejercicios-OpenBootcamp/issues"
+  },
+  "homepage": "https://github.com/MiguelVasquezAl/Ejercicios-OpenBootcamp#readme",
+  "keywords": []
+}
