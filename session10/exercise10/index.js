@@ -1,12 +1,4 @@
-//En el entrypoint index.js, importa el módulo controller.js
+import { suma, multiplica } from "./controller.js"
+import chalk from "chalk"
 
-import {sum,multiply} from "./modulos/controller.js"
-
-
-const adicion = sum(2,5)
-console.log(adicion);
-
-const multiple = multiply(2,5)
-console.log(multiple);
-
-
+console.log(chalk.green(multiplica(suma(1, 2), suma(4, 5))))
