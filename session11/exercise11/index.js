@@ -7,11 +7,8 @@
 // - Haz la llamada al método obtenDatos
 
 class Estudiante {
-  constructor(nombre) {
-    this.nombre = nombre;
-    this.asignaturas = ["Javascript", "HTML", "CSS"];
-  }
-  //   asignaturas = ["Javascript", "HTML", "CSS"];
+  nombre = "miguel";
+  asignaturas = ["Javascript", "HTML", "CSS"];
   obtenDatos() {
     return {
       nombre: this.nombre,
@@ -19,6 +16,6 @@ class Estudiante {
     };
   }
 }
-const estudiante = new Estudiante("miguel");
+const estudiante = new Estudiante();
 estudiante.obtenDatos();
 console.log(estudiante.obtenDatos());
