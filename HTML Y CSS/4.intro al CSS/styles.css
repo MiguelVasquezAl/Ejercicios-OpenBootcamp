@@ -1,0 +1,44 @@
+ul > #elemento-1 {
+  font-size: 2rem;
+}
+
+#elemento-1 {
+  color: red;
+}
+
+.pube-bottom {
+  -webkit-user-drag: none;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: inline-block;
+  line-height: normal;
+  user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+  background-color: #e6e6e6;
+  border: transparent;
+  border-radius: 2px;
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 100%;
+  padding: 0.5em 1em;
+  text-decoration: none;
+}
+
+.pure {
+  -webkit-user-drag: none;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: inline-block;
+  line-height: normal;
+  user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+  border: transparent;
+  border-radius: 2px;
+  font-size: 100%;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  background-color: #0078e7;
+  color: #fff;
+  font-family: inherit;
+}
