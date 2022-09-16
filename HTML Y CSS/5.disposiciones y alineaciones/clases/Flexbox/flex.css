@@ -1,0 +1,36 @@
+.flex {
+  display: flex;
+  /* flex-direction: column; */
+  background-color: yellow;
+  height: 300px;
+  /* justify-content lo que hace es alinear los elementos en el eje principal */
+  justify-content: space-between;
+  /* flex-wrap lo que hace es que si los elementos no caben en una sola fila, los coloca en la siguiente fila */
+  /* flex-wrap: wrap; */
+  align-items: center;
+}
+
+.contenido-1 {
+  background-color: rgb(255, 255, 255);
+  /* height: 200px; */
+  width: 100px;
+  border: 1px solid rgb(0, 17, 255);
+}
+.contenido-2 {
+  background-color: rgb(255, 255, 255);
+  /* height: 200px; */
+  width: 100px;
+  border: 1px solid rgb(0, 17, 255);
+}
+.contenido-3 {
+  background-color: rgb(255, 255, 255);
+  /* height: 200px; */
+  width: 100px;
+  border: 1px solid rgb(0, 17, 255);
+}
+.contenido-4 {
+  background-color: rgb(255, 255, 255);
+  /* height: 200px; */
+  width: 100px;
+  border: 1px solid rgb(0, 17, 255);
+}

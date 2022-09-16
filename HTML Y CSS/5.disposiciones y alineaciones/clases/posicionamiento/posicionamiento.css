@@ -1,0 +1,51 @@
+html {
+  background-color: rgb(2, 145, 121);
+}
+
+div {
+  border: 1px solid rgb(165, 253, 1);
+  padding: 5px;
+  /* margin es para separar los elementos con otro */
+  margin: 5px;
+}
+/* --------------------------------------- */
+.relative {
+  /* el posicionamiento relativo es para que el elemento se mueva en relacion a su posicion original */
+  position: relative;
+  left: 80px;
+  margin-left: 10px;
+}
+.fixed {
+  /* el posicionamiento fixed es para que el elemento se mueva en relacion a la pantalla */
+  position: fixed;
+  bottom: 0%;
+  left: 0%;
+  background-color: white;
+  /* z-index lo usamos para que el elemento se quede por encima de los demas elementos */
+  z-index: 10;
+}
+.absolute {
+  /* el posicionamiento albosute es para que el elemento de mueva en relacion a su padre */
+  position: absolute;
+  margin: 0%;
+  top: 100px;
+  left: 0%;
+  background-color: white;
+}
+
+.relative.container {
+  width: 800px;
+  height: 600px;
+  background-color: rgb(2, 134, 57);
+}
+
+.sticky {
+  background-color: rgb(4, 4, 49);
+  color: aliceblue;
+  position: sticky;
+  top: 0%;
+  z-index: 10;
+  border-color: blue;
+  /* podemos combinar el posicionamiento fixed y sticky */
+  position: fixed;
+}

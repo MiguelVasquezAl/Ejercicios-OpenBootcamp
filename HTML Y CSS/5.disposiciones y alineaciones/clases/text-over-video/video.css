@@ -1,0 +1,27 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+
+.video {
+  width: 100vw;
+  /* el 100vh es para que el video se centre en la pantalla */
+  height: 100vh;
+  position: fixed;
+  object-fit: cover;
+}
+.header {
+  color: aqua;
+  height: 100vh;
+  font-size: 2rem;
+  position: relative;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+html {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: rgb(0, 0, 0);
+}

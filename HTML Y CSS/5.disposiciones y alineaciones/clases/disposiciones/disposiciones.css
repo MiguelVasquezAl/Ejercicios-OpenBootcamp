@@ -1,0 +1,24 @@
+.div-1,
+.div-2 {
+  background-color: rgb(255, 57, 57);
+}
+
+.span-1 {
+  /* las etiquetas span tienen por defecto display: inline; */
+  display: inline;
+  /* cuando pones inline-block, puedes darle altura y ancho */
+  background-color: rgb(23, 124, 182);
+  float: left;
+}
+
+.span-2 {
+  /* las etiquetas span tienen por defecto display: inline; */
+  display: inline;
+  /* cuando pones inline-block, puedes darle altura y ancho */
+  background-color: rgb(23, 124, 182);
+  float: right;
+}
+
+.img {
+  width: 50px;
+}
