@@ -1,0 +1,15 @@
+* {
+  background-color: rgb(175, 20, 0);
+}
+
+div button {
+  width: 100px;
+  height: 50px;
+  background-color: #02b2e7;
+}
+
+div button:hover {
+  background-color: #04d315;
+  color: white;
+  border-width: 2px;
+}
