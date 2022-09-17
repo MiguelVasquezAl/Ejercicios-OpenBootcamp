@@ -13,3 +13,11 @@ div button:hover {
   color: white;
   border-width: 2px;
 }
+
+.btn::before {
+  content: "Con buen ánimo";
+}
+
+.btn:hover::before {
+  content: "Lo lograremos!!";
+}
