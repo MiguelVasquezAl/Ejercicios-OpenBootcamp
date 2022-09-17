@@ -1,5 +1,5 @@
 * {
-  background-color: rgb(175, 20, 0);
+  background-color: rgb(6, 105, 129);
 }
 
 div button {
@@ -9,7 +9,7 @@ div button {
 }
 
 div button:hover {
-  background-color: #04d315;
+  background-color: #03880e;
   color: white;
   border-width: 2px;
 }
