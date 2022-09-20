@@ -1,0 +1,66 @@
+.input {
+  width: 100%;
+  padding: 15px 10px;
+  margin-bottom: 10px;
+}
+.input[type="password"] {
+  color: blueviolet;
+  border: 5px solid rgb(53, 39, 255);
+  border-radius: 10px;
+  outline: none;
+}
+.input-moderno {
+  margin-top: 5px;
+  border: none;
+  border-bottom: 2px solid #ccc;
+  /* outline es para eliminar el borde negro que aparece al seleccionar el input */
+  outline: none;
+  color: rgb(0, 155, 90);
+  border-color: rgb(0, 155, 90);
+}
+.input-moderno:focus {
+  border-color: blueviolet;
+}
+
+.input-moderno::placeholder {
+  color: rgb(0, 155, 90);
+}
+.back {
+  background-color: chartreuse;
+  border-radius: 5px;
+  border: none;
+  height: 20px;
+  outline: none;
+  color: rgb(124, 122, 122);
+}
+.back::placeholder {
+  color: rgb(0, 12, 185);
+}
+.search {
+  width: 300px;
+  margin-top: 20px;
+  padding: 10px;
+  padding-left: 40px;
+  border-top: 20P;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(245, 241, 241);
+  color: purple;
+  background-image: url("./lupa.png");
+  background-repeat: no-repeat;
+  background-size: 40px;
+  background-position: center left;
+}
+.search::placeholder {
+  color: rgb(117, 79, 255);
+}
+
+textarea {
+  resize: horizontal;
+}
+
+.fuente {
+  font-family: bold 24px/29px "Haas Grot Text R Web", "Helvetica Neue",
+    Helvetica, Arial, sans-serif;
+}

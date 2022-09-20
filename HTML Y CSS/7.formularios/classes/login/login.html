@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clonando Login</title>
+    <link rel="stylesheet" href="./login.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h3 class="titulo">Sing in to Dribbble</h3>
+      <div class="buttons">
+        <button class="google-btn">
+          <picture> <img src="./go.png" alt="img" /> </picture>
+          <span>Iniciar sesión con Google</span>
+        </button>
+        <button class="twitter-btn">
+          <picture><img src="./logotipo-de-twitter.png" alt="" /></picture>
+        </button>
+      </div>
+      <div class="separador">
+        <hr />
+        Or
+        <hr />
+      </div>
+      <form action="">
+        <div>
+        <label for="UsernameOrEmail">
+          <span class="user">Username or Email Address</span>
+          <br>
+          <input class="inp" type="text email" name="UsernameOrEmail" id="UsernameOrEmail" />
+        </label>
+        <br>
+        <label for="password">
+          <span class="pass">Password</span> <span class="izquierda">
+            <a href="https://dribbble.com/password/new" target="_blank">Forgot password?</a>
+            </span><br>
+          <input  class="inp"
+            type="password"
+            name="password"
+            id="password"
+          />
+        </label>
+        <br>
+        <button class="btn" type="submit">Sign In</button>
+      </form>
+    </div>
+  </body>
+</html>
